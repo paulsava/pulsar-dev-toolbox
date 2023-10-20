@@ -1,0 +1,31 @@
+/* src/styles/Section2.css */
+
+.section-2-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* This ensures left alignment */
+    height: 100%;
+    padding: 20px; /* This provides some spacing */
+    background: linear-gradient(black, lightgray); /* Gradient background */
+  }
+  
+  .section-2-title {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* This makes the text bold */
+    margin-bottom: 20px; /* Space between the title and the rectangles */
+  }
+  
+  .rounded-rectangle-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+    gap: 30px; /* Additional space between rectangles */
+  }
+  
+  .rounded-rectangle {
+    width: 200px; 
+    height: 100px;
+    background-color: white;
+    border-radius: 25px;
+  }
+  
